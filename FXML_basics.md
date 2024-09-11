@@ -184,7 +184,7 @@ A TableView displays tabular data, often used to show lists or tables of informa
 Attributes:
 - columns: Defines the columns in the table.
 
-### 11. ListView
+### 12. ListView
 
 A ListView displays a list of items that users can select from.
 ```xml
@@ -225,7 +225,7 @@ Arranges its children horizontally.
 </HBox>
 ```
 
-### GridPane (Grid Layout)
+### 3. GridPane (Grid Layout)
 
 Arranges its children in a grid of rows and columns.
 ```xml
@@ -236,7 +236,7 @@ Arranges its children in a grid of rows and columns.
     <TextField GridPane.rowIndex="1" GridPane.columnIndex="1"/>
 </GridPane>
 ```
-## BorderPane (Border Layout)
+### 4. BorderPane (Border Layout)
 
 Divides the layout into five regions: top, bottom, left, right, and center.
 ```xml
