@@ -184,6 +184,22 @@ A TableView displays tabular data, often used to show lists or tables of informa
 Attributes:
 - columns: Defines the columns in the table.
 
+### 11. ListView
+
+A ListView displays a list of items that users can select from.
+```xml
+<ListView fx:id="listView">
+    <items>
+        <FXCollections fx:factory="observableArrayList">
+            <String fx:value="Item 1"/>
+            <String fx:value="Item 2"/>
+            <String fx:value="Item 3"/>
+        </FXCollections>
+    </items>
+</ListView>
+```
+
+
 ## Layout Containers
 
 Layout containers help arrange and position the components within the UI. Common layout containers include:
@@ -235,18 +251,4 @@ Divides the layout into five regions: top, bottom, left, right, and center.
         <Button text="Submit"/>
     </bottom>
 </BorderPane>
-```
-### 12. ListView
-
-A ListView displays a list of items that users can select from.
-```xml
-<ListView fx:id="listView">
-    <items>
-        <FXCollections fx:factory="observableArrayList">
-            <String fx:value="Item 1"/>
-            <String fx:value="Item 2"/>
-            <String fx:value="Item 3"/>
-        </FXCollections>
-    </items>
-</ListView>
 ```
